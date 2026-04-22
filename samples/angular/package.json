@@ -9,13 +9,13 @@
     "watch": "ng build --watch --configuration development"
   },
   "dependencies": {
-    "@angular/animations": "^20.3.19",
-    "@angular/common": "^20.3.19",
-    "@angular/compiler": "^20.3.19",
-    "@angular/core": "^20.3.19",
-    "@angular/forms": "^20.3.19",
-    "@angular/platform-browser": "^20.3.19",
-    "@angular/router": "^20.3.19",
+    "@angular/animations": "^21.2.9",
+    "@angular/common": "^21.2.9",
+    "@angular/compiler": "^21.2.9",
+    "@angular/core": "^21.2.9",
+    "@angular/forms": "^21.2.9",
+    "@angular/platform-browser": "^21.2.9",
+    "@angular/router": "^21.2.9",
     "@digitalpersona/card": "../..",
     "@digitalpersona/websdk": "^1.0.0",
     "rxjs": "~7.8.0",
@@ -23,14 +23,14 @@
     "zone.js": "~0.15.0"
   },
   "devDependencies": {
-    "@angular/build": "^20.3.24",
-    "@angular/cli": "^20.3.24",
-    "@angular/compiler-cli": "^20.3.19",
+    "@angular/build": "^21.2.8",
+    "@angular/cli": "^21.2.8",
+    "@angular/compiler-cli": "^21.2.9",
     "@types/jasmine": "~5.1.0",
     "@types/node": "^16.11.35",
     "copyfiles": "^2.4.1",
     "ts-node": "~10.9.0",
-    "typescript": "~5.8.0"
+    "typescript": "~5.9.3"
   },
   "-devDependencies": {
     "jasmine-core": "~5.6.0",

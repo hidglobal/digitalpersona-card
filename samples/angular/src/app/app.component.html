@@ -31,16 +31,22 @@
 
     <section>
       <label><input formControlName="showRawMessages" type="checkbox">Show raw messages</label>
-      <div class="info" *ngIf="feedback">{{feedback}}</div>
-      <div class="error" *ngIf="error">{{error}}</div>
+      @if (feedback) {
+        <div class="info">{{feedback}}</div>
+      }
+      @if (error) {
+        <div class="error">{{error}}</div>
+      }
     </section>
 
-    <section *ngIf="result">
-      <fieldset>
-        <legend>Result</legend>
-        <pre id="result">{{result}}</pre>
-      </fieldset>
-    </section>
+    @if (result) {
+      <section>
+        <fieldset>
+          <legend>Result</legend>
+          <pre id="result">{{result}}</pre>
+        </fieldset>
+      </section>
+    }
   </form>
 
 </main>

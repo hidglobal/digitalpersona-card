@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
-import { CommonModule} from '@angular/common';
+
 import { ReactiveFormsModule, FormGroup, FormControl } from '@angular/forms';
 import { CardType, Purpose, capture, Feedback, ApiError } from '@digitalpersona/card';
 
 
 @Component({
   selector: 'app-root',
-  imports: [ CommonModule, ReactiveFormsModule ],
+  imports: [ReactiveFormsModule],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
 })
